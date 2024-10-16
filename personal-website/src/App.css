@@ -1,0 +1,261 @@
+/* Global Styles */
+/* Global Styles */
+.App {
+  font-family: "JetBrains Mono", monospace; /* Use JetBrains Mono as the default font */
+  font-weight: 400; /* Default weight */
+  text-align: center;
+}
+
+/* Optional: Modify weights of JetBrains Mono for different sections */
+/* Example of applying a specific weight */
+.jetbrains-mono-heading {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 700; /* Bold weight for headings */
+}
+
+.jetbrains-mono-body {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400; /* Regular weight for body text */
+}
+
+/* Section Styles */
+h2, h3, p {
+  font-family: "JetBrains Mono", monospace; /* Ensure JetBrains Mono applies to headers and paragraphs */
+  font-weight: 400; /* Normal weight */
+}
+
+nav ul li a {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 500; /* Slightly bolder for links */
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-links a {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 400; /* Regular weight */
+  font-size: 1.2rem;
+  color: #00BFA6;
+}
+
+.hero-title {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 300; /* Light weight for title */
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Footer Styles */
+.footer-section h2, .footer-section p {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 600; /* Semi-bold for the footer heading */
+  color: white;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+h3 {
+  color: #34495e;
+}
+
+p {
+  color: #7f8c8d;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2c3e50;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.navbar-name {
+  position: absolute;
+  left: 20px; /* Position name on the left side */
+}
+
+.navbar-name a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Yellowtail', cursive; /* Optional: Calligraphy font for the navbar name */
+}
+
+.navbar-name a:hover {
+  color: #f39c12; /* Optional: Hover color for the name link */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 16px;
+}
+
+nav ul li a:hover {
+  background-color: #34495e;
+  border-radius: 4px;
+}
+
+/* Hero Section */
+#header {
+  height: 100vh; /* Full screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Light background */
+  color: #2c3e50; /* Text color */
+}
+
+.yellowtail-regular {
+  font-family: "Yellowtail", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Styling for the header section with name */
+.hero-section {
+  height: 100vh; /* Full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the left */
+  padding-left: 50px; /* Adjust spacing from the left edge */
+}
+
+.hero-name {
+  font-size: 11rem; /* BIG font size */
+  color: black;
+  font-family: "Yellowtail", cursive; /* Apply Yellowtail font */
+  margin: 0; /* Remove default margins */
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #333;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+/* Section styles for content */
+section {
+  padding: 3rem 2rem;
+}
+
+.wrapper {
+  position: relative; /* To ensure content layers properly */
+  background-color: #f8f9fa; 
+  background-image: 
+    linear-gradient(to right, rgba(45, 39, 39, 0.05) 1px, transparent 1px), /* Vertical lines */
+    linear-gradient(to bottom, rgba(45, 39, 39, 0.05) 1px, transparent 1px); /* Horizontal lines */
+  background-size: 50px 50px; /* Grid size */
+  color: white;
+  text-align: center;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  background-color: transparent;
+  border: 2px solid var(--link-color);
+  color: var(--link-color);
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--link-color);
+  color: var(--text-color);
+}
+
+/* FOOTER STYLING */
+.footer-section {
+  padding: 2rem 0;
+  background-color: #0a0f1c;
+  text-align: center;
+}
+
+.footer-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.footer-links li {
+  margin: 0 1.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #00BFA6; /* Link color */
+  font-size: 1.2rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Faded background text */
+.main-page-background::before {
+  content: 'Hello World!'; /* Your faded text */
+  font-size: 11rem; /* Large text for background */
+  font-weight: bold;
+  color: #f5f5f5; /* Transparent white text */
+  position: absolute;
+  top: 22%; /* Adjust positioning as needed */
+  left: 43%;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensure the text is behind other content */
+  white-space: nowrap;
+}
+
+.main-content {
+  position: relative;
+  z-index: 2; /* This ensures content appears above the background text */
+}
+
+
+.hr {
+    border-top:1px dotted #000;
+}
