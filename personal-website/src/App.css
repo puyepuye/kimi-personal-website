@@ -344,3 +344,9 @@ button:hover {
   padding-right: 250px;
   padding-bottom: 35px;
 }
+
+br {
+  display: block; /* makes it have a width */
+  content: ""; /* clears default height */
+  padding-top: 8px; /* change this to whatever height you want it */
+}

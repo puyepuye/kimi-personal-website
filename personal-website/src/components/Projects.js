@@ -17,6 +17,8 @@ function Projects() {
           <p>
             Designed and developed a travel destination website using HTML, CSS, and JavaScript,
             showcasing top global destinations to enhance user engagement and interface design skills.
+            <br />Gained hands-on experience with modern web development tools, resulting in an 
+            understanding of full-stack web technologies.
           </p>
         </div>
       </div>
@@ -29,8 +31,10 @@ function Projects() {
         </div>
         <div class="description">
           <p>
-            Developed a fully functional Minesweeper game in Python using Tkinter, implementing game
-            logic, user interface, and interactive features.
+            Independently developed a fully functional Minesweeper game in 
+            Python using Tkinter: Implemented game logic, user interface, and interactive features.
+            <br />Designed algorithms for bomb placement, adjacent cell number calculations, 
+            and endgame scenarios, ensuring smooth gameplay and user experience.
           </p>
         </div>
       </div>

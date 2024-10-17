@@ -14,7 +14,12 @@ function Experience() {
           <p class="place">Girls in STEAM</p>
         </div>
         <div class="description">
-          <p>Created and managed content profiles of women in STEAM, increasing engagement and raising awareness for STEAM fields.</p>
+          <p>
+            Created and managed created content profiles of women in STEAM, 
+            raising awareness for STEAM fields and increasing engagement with over 700 followers.
+            <br />Coordinated with team members to produce educational resources, 
+            helping drive program attendance and supporting young girls interested in STEAM careers.
+          </p>
         </div>
       </div>
 
@@ -25,7 +30,14 @@ function Experience() {
           <p class="place">Camp Taiwan</p>
         </div>
         <div class="description">
-          <p>Led camp sessions, mentored campers, and collaborated on activities to create a positive environment.</p>
+          <p>
+            Led 6 week-long camp sessions, mentoring 100+ campers and ensuring a positive 
+            environment by fostering collaboration and problem-solving among groups.
+            <br /> Strengthened communication skills through regular interactions with others, 
+            including campers, fellow counselors, and parents.
+            <br /> Collaborated with co-counselors to create and implement structured activities, 
+            contributing to a supportive camp community.
+          </p>
         </div>
       </div>
     </div>
