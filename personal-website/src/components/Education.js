@@ -2,16 +2,26 @@ import React from 'react';
 
 function Education() {
   return (
-    <div className="section">
-      <h2>Education</h2>
-      <h3>University of Toronto</h3>
-      <p>Toronto, Canada</p>
-      <p>Bachelor of Arts in Computer Science, Sep 2023 – Apr 2027</p>
-      <p>Awards: International Merit Admission Award</p>
-
-      <h3>Yoder International Academy</h3>
-      <p>Taoyuan, Taiwan</p>
-      <p>High School Diploma, Sep 2020 - Jun 2023</p>
+    <div class="section">
+      <div class="section-title">
+        <h2>Education</h2>
+      </div>
+      <div class="line-container">
+        <h3 class="title-name">University of Toronto</h3>
+        <p class="location">Toronto, Canada</p>
+      </div>
+      <div class="description">
+        <p>Bachelor of Arts in Computer Science, Sep 2023 – Apr 2027</p>
+        <p>Awards: International Merit Admission Award</p>
+      </div>
+      
+      <div class="line-container">
+        <h3 class="title-name">Yoder International Academy</h3>
+        <p class="location">Taoyuan, Taiwan</p>
+      </div>
+      <div class="description">
+        <p>High School Diploma, Sep 2020 - Jun 2023</p>
+      </div>
     </div>
   );
 }

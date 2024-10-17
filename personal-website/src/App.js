@@ -35,25 +35,25 @@ function App() {
           <Education />
         </section>
 
-        <hr className="breaker" />
+        <hr />
         
         <section id="skills">
           <Skills />
         </section>
 
-        <hr className="breaker" />
+        <hr />
 
         <section id="projects">
           <Projects />
         </section>
 
-        <hr className="breaker" />
+        <hr />
 
         <section id="experience">
           <Experience />
         </section>
 
-        <hr className="breaker" />
+        <hr />
 
         <section id="leadership">
           <Leadership />

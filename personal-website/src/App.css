@@ -172,6 +172,7 @@ section {
     linear-gradient(to right, rgba(45, 39, 39, 0.05) 1px, transparent 1px), /* Vertical lines */
     linear-gradient(to bottom, rgba(45, 39, 39, 0.05) 1px, transparent 1px); /* Horizontal lines */
   background-size: 50px 50px; /* Grid size */
+  background-attachment: fixed;
   color: white;
   text-align: center;
 }
@@ -243,7 +244,7 @@ button:hover {
   font-weight: bold;
   color: #f5f5f5; /* Transparent white text */
   position: absolute;
-  top: 22%; /* Adjust positioning as needed */
+  top: 20%; /* Adjust positioning as needed */
   left: 43%;
   transform: translate(-50%, -50%);
   z-index: 1; /* Ensure the text is behind other content */
@@ -255,7 +256,91 @@ button:hover {
   z-index: 2; /* This ensures content appears above the background text */
 }
 
+/* Adding section alignment for content-left and content-right */
+/* Container for the entire section */
+.section {
+  text-align: left;
+  margin-bottom: 2rem; /* Add space between sections */
+}
 
-.hr {
-    border-top:1px dotted #000;
+/* Aligns the section title (Education) to the left */
+.section-title h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: left;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-bottom: 35px;
+}
+
+.section-title2 h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #2c3e50;
+  text-align: left;
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-bottom: 35px;
+}
+
+/* Flexbox container for the university and location */
+.line-container {
+  display: flex;
+  justify-content: space-between; /* Ensures University of Toronto is on the left and location on the right */
+  align-items: center; /* Aligns items vertically in the middle */
+  margin-top: 0.5rem;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+
+.line-container2 {
+  display: flex;
+  justify-content: space-between; /* Ensures the date and role are horizontally aligned */
+  align-items: center; /* Vertically aligns the items in the middle */
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+/* Style for University of Toronto (left-aligned) */
+.title-name {
+  color: #34495e;
+  margin: 0;
+}
+
+.title-name2 {
+  color: #34495e;
+  margin: 0;
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 15px;
+}
+
+.place {
+  color: #7f8c8d;
+  margin: 0;
+}
+
+/* Style for Toronto, Canada (right-aligned) */
+.location {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin: 0;
+}
+
+.location2 {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin: 0;
+}
+
+/* Styling for the degree and awards */
+.description {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-top: 0.5rem;
+  text-align: left;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 35px;
 }
