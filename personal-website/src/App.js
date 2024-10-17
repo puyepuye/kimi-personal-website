@@ -62,11 +62,11 @@ function App() {
         <footer className="footer-section">
           <h2>Let's Connect!</h2>
           <ul className="footer-links">
-            <li><a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-            <li><a href="mailto:youremail@gmail.com">Email</a></li>
+            <li><a href="https://github.com/kimichu0502" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/yi-an-chu/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="yian.chu@mail.utoronto.ca">Email</a></li>
           </ul>
-          <p className="footer-copyright">&copy; 2024 Your Name. All Rights Reserved.</p>
+          <p className="footer-copyright">&copy; 2024 Yi-An Chu. </p>
         </footer>
       </div>
     </div>
