@@ -8,6 +8,22 @@ function Projects() {
       </div>
 
       <div className="project">
+        <h3  class="title-name2">Personal Website</h3>
+        <div class="line-container2">
+          <p class="location2">Web Development</p>
+          <p class="place">September 2024</p>
+        </div>
+        <div class="description">
+          <p>
+            Independently developed a fully functional Minesweeper game in 
+            Python using Tkinter: Implemented game logic, user interface, and interactive features.
+            <br />Designed algorithms for bomb placement, adjacent cell number calculations, 
+            and endgame scenarios, ensuring smooth gameplay and user experience.
+          </p>
+        </div>
+      </div>
+
+      <div className="project">
         <h3  class="title-name2">Kode with Klossy Participant</h3>
         <div class="line-container2">
           <p class="location2">Web Development</p>

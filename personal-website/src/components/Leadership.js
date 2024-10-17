@@ -25,10 +25,10 @@ function Leadership() {
       </div>
 
       <div className="leadership">
-        <h3 class="title-name2">Student Council Secretary</h3>
+        <h3 class="title-name2">SAT Math Boot Camp Tutor</h3>
         <div class="line-container2">
-          <p class="location2">September 2021 – June 2023</p>
-          <p class="place">Yoder International Academy</p>
+          <p class="location2">October 2022 - December 2022</p>
+          <p class="place">SchoolHouse</p>
         </div>
         <div class="description">
           <p>
@@ -37,6 +37,26 @@ function Leadership() {
             problem-solving within the Student Council.
             <br />Fostered communication between students and faculty, addressing concerns and implementing solutions to enhance
             student life and academic success.
+          </p>
+        </div>
+      </div>
+
+      <div className="leadership">
+        <h3 class="title-name2">Student Council Secretary</h3>
+        <div class="line-container2">
+          <p class="location2">September 2021 – June 2023</p>
+          <p class="place">Yoder International Academy</p>
+        </div>
+        <div class="description">
+          <p>
+            Tutored 5-10 students in virtual sessions using detailed lesson plans.
+            <br />Monitored and assessed student progress systematically, adapting teaching strategies
+            to address specific challenges and foster a deep understanding of mathematical
+            principles, resulting in heightened confidence and improved performance in the SAT
+            Math section.
+            <br />Collaborated with students to review practice tests, analyze errors, and strategize
+            effective approaches, ultimately contributing to overall score improvements and
+            academic success in the SAT Math section.
           </p>
         </div>
       </div>

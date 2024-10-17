@@ -12,7 +12,7 @@ function Education() {
       </div>
       <div class="description">
         <p>Bachelor of Arts in Computer Science, Sep 2023 – Apr 2027</p>
-        <p>Awards: International Merit Admission Award</p>
+        <p>Awards: International Merit Admission Award, The Regents In-Course Scholarship</p>
       </div>
       
       <div class="line-container">
