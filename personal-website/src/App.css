@@ -244,7 +244,7 @@ button:hover {
   font-weight: bold;
   color: #f5f5f5; /* Transparent white text */
   position: absolute;
-  top: 20%; /* Adjust positioning as needed */
+  top: 18%; /* Adjust positioning as needed */
   left: 43%;
   transform: translate(-50%, -50%);
   z-index: 1; /* Ensure the text is behind other content */
